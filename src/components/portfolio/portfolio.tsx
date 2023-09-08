@@ -2,6 +2,50 @@ import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/portfolio-1.jpeg';
 
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'This is a portfolio item title',
+    github: 'https://github.com',
+    demo: 'https://github.com',
+  },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'This is a portfolio item title',
+    github: 'https://github.com',
+    demo: 'https://github.com',
+  },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'This is a portfolio item title',
+    github: 'https://github.com',
+    demo: 'https://github.com',
+  },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'This is a portfolio item title',
+    github: 'https://github.com',
+    demo: 'https://github.com',
+  },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'This is a portfolio item title',
+    github: 'https://github.com',
+    demo: 'https://github.com',
+  },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'This is a portfolio item title',
+    github: 'https://github.com',
+    demo: 'https://github.com',
+  },
+];
 function Portfolio() {
   return (
     <section id="portfolio">
@@ -9,156 +53,34 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="Exemple de Projet" />{' '}
-            {/* //TODO Mettre le nom du projet */}
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>{' '}
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="Exemple de Projet" />{' '}
-            {/* //TODO Mettre le nom du projet */}
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>{' '}
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="Exemple de Projet" />{' '}
-            {/* //TODO Mettre le nom du projet */}
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>{' '}
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="Exemple de Projet" />{' '}
-            {/* //TODO Mettre le nom du projet */}
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>{' '}
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="Exemple de Projet" />{' '}
-            {/* //TODO Mettre le nom du projet */}
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>{' '}
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="Exemple de Projet" />{' '}
-            {/* //TODO Mettre le nom du projet */}
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>{' '}
-          </div>
-        </article>
+        {data.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
