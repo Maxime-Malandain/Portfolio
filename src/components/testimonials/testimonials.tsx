@@ -10,6 +10,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
+//! voir peut être remettre uuid for ID
 const data = [
   {
     id: '1',

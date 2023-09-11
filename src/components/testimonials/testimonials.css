@@ -1,6 +1,7 @@
 .container.testimonials__container {
-  width: 70%;
+  width: 80%;
 }
+/* ! le responsive part de temps en temps? */
 
 .client__avatar {
   width: 4rem;
