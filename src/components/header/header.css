@@ -17,6 +17,13 @@ header {
   justify-content: center;
 }
 
+.header__socials::before {
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
 .header__socials {
   display: flex;
   flex-direction: column;
@@ -25,6 +32,7 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+  font-size: 1.5rem;
 }
 
 .header__socials::after {
@@ -49,10 +57,57 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 0.9rem;
+  bottom: 1.5rem;
+  font-size: 4rem;
+}
+
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateY(-65px);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateY(-28px);
+  }
+
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateY(-8px);
+  }
+
+  100% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+}
+.myAnim {
+  opacity: 0;
+  animation: myAnim 2s ease 2s 1 normal forwards;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,50 +1,52 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/portfolio-1.jpeg';
+import IMG2 from '../../assets/work-in-progress-removebg-preview (2).png';
+import IMG3 from '../../assets/IDEE-Afor (1).png';
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is a portfolio item title',
+    title: 'Tok-Tok',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
   {
-    id: 1,
-    image: IMG1,
-    title: 'This is a portfolio item title',
+    id: 2,
+    image: IMG2,
+    title: 'To Do List',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
   {
-    id: 1,
-    image: IMG1,
-    title: 'This is a portfolio item title',
+    id: 3,
+    image: IMG3,
+    title: 'Autre idées',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
-  {
-    id: 1,
-    image: IMG1,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: 'https://github.com',
-  },
-  {
-    id: 1,
-    image: IMG1,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: 'https://github.com',
-  },
-  {
-    id: 1,
-    image: IMG1,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: 'https://github.com',
-  },
+  // {
+  //   id: 4,
+  //   image: IMG3,
+  //   title: 'Blog Livre lu et à lire',
+  //   github: 'https://github.com',
+  //   demo: 'https://github.com',
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG3,
+  //   title: 'Recette cuisine',
+  //   github: 'https://github.com',
+  //   demo: 'https://github.com',
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG3,
+  //   title: 'Anniversaire',
+  //   github: 'https://github.com',
+  //   demo: 'https://github.com',
+  // },
 ];
 function Portfolio() {
   return (

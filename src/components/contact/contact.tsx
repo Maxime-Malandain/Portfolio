@@ -30,8 +30,8 @@ function Contact() {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Entrer en relation</h5>
+      <h2>Contactez moi</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -39,30 +39,25 @@ function Contact() {
             <HiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>m.malandain-dev@ikmail.com</h5>
-            <a href="mailto:m.malandain-dev@ikmail.com"> Send Email</a>
+            <a href="mailto:m.malandain-dev@ikmail.com"> Envoyez un mail</a>
           </article>
         </div>
         <form onSubmit={sendEmail} ref={form}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
+          <input type="text" name="name" placeholder="Votre nom" required />
           <input
             type="email"
             name="email"
-            placeholder="Your Email Address"
+            placeholder="Votre adresse mail"
             required
           />
           <textarea
             name="message"
             rows={7}
-            placeholder="Your Message"
+            placeholder="Votre message"
             required
           />
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Envoyez le message
           </button>
         </form>
       </div>

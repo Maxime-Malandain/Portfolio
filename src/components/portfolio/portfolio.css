@@ -20,16 +20,20 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio__item h3 {
   margin: 1.2rem 0 2rem;
+  text-align: center;
 }
 
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -37,6 +41,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+
+  /* .portfolio__item-image {
+    height: auto;
+  } */
 }
 
 @media screen and (max-width: 600px) {

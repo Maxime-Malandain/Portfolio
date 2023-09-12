@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './nav.css';
-import { IoHome } from 'react-icons/io5';
+import { BsHouseDoor } from 'react-icons/bs';
 import { BiMessageSquareDetail, BiUser, BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 
@@ -15,7 +15,7 @@ function Nav() {
         onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}
       >
-        <IoHome />
+        <BsHouseDoor />
       </a>
       <a
         href="#about"
@@ -26,10 +26,10 @@ function Nav() {
         <BiUser />
       </a>
       <a
-        href="#experience"
+        href="#hardskills"
         role="button"
-        onClick={() => setActiveNav('#experience')}
-        className={activeNav === '#experience' ? 'active' : ''}
+        onClick={() => setActiveNav('#hardskills')}
+        className={activeNav === '#hardskills' ? 'active' : ''}
       >
         <BiBook />
       </a>

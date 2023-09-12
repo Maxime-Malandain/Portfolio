@@ -7,7 +7,7 @@ import ME from '../../assets/me-background.png';
 function About() {
   return (
     <section id="about">
-      <h5>A savoir</h5>
+      <h5>Que savoir</h5>
       <h2>A propos de moi</h2>
 
       <div className="container about__container">

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/header/Header';
 import Nav from '../components/nav/Nav';
 import About from '../components/about/About';
-import Experience from '../components/experience/Experience';
+import HardSkills from '../components/hard_skills/HardSkills';
 import Services from '../components/services/Services';
 import Porfolio from '../components/portfolio/Portfolio';
 import Contact from '../components/contact/Contact';
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Nav />
       <About />
-      <Experience />
+      <HardSkills />
       <Services />
       <Porfolio />
       <Testimonials />

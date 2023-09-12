@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import { TiArrowDownOutline } from 'react-icons/ti';
 import CTA from './CTA';
 import ME from '../../assets/me-background.png';
 //! Mettre une photo plus tard
@@ -20,7 +21,7 @@ const header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">
-          Scroll Down
+          <TiArrowDownOutline className="myAnim" />
         </a>
       </div>
     </header>

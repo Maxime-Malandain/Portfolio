@@ -46,7 +46,7 @@ function Testimonials() {
         effect="coverflow"
         grabCursor
         centeredSlides
-        slidesPerView="auto"
+        slidesPerView={3}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
