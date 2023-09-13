@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import { FiAward, FiUsers } from 'react-icons/fi';
-import { PiFolderNotchOpenDuotone } from 'react-icons/pi';
+// import { FiAward, FiUsers } from 'react-icons/fi';
+// import { PiFolderNotchOpenDuotone } from 'react-icons/pi';
 import ME from '../../assets/me-background.png';
 
 function About() {

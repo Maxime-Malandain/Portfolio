@@ -14,7 +14,7 @@ const data = [
     avatar: AVTR1,
     name: "O'Clock (Fev-Aout 2023)",
     review:
-      "Formation Intensive en développement web spécialisé en Javascript, d'une durée de 798 heures. Au cours de cette formation, j'ai acquis une solide compréhension de JavaScript, React, Node.js, et d'autres technologies web essentielles. J'ai eu l'opportunité de travailler sur une variété de projets concrets, y compris la création d'un réseau social en groupe, renforçant ainsi mes compétences en travail d'équipe et en résolution de problèmes.",
+      "Formation Intensive en développement web spécialisé en Javascript, d'une durée de 798 heures. J'ai eu l'opportunité de travailler sur une variété de projets concrets, y compris la création d'un réseau social en groupe, renforçant ainsi mes compétences en travail d'équipe et en résolution de problèmes.",
   },
   {
     id: '2',
@@ -28,7 +28,7 @@ const data = [
     avatar: AVTR3,
     name: 'Carrefour (2014-2017) ',
     review:
-      "Mon expérience en tant qu'employé polyvalent chez Carrefour m'a permis de travailler dans de nombreux domaines différents (caisse, comptabilité, boucherie, boulangerie), renforçant ainsi ma polyvalence. Cette expérience a été une opportunité précieuse pour développer mes compétences en gestion du temps, en service à la clientèle et en travail d'équipe. J'ai acquis la capacité de traiter efficacement avec diverses situations et de répondre aux besoins des clients de manière professionnelle. ",
+      "Mon expérience en tant qu'employé polyvalent chez Carrefour m'a permis de travailler dans de nombreux domaines différents (caisse, comptabilité, boucherie, boulangerie), renforçant ainsi ma polyvalence. Cette expérience a été une opportunité précieuse pour développer mes compétences en gestion du temps,  service clientèle et en travail d'équipe.",
   },
 ];
 
@@ -39,7 +39,7 @@ function Experiences() {
       <h2>Experiences</h2>
 
       <Swiper
-        style={{ width: '30rem', height: '27rem' }}
+        style={{ width: '23rem', height: '25rem' }}
         effect="cube"
         grabCursor
         cubeEffect={{

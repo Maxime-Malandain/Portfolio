@@ -15,38 +15,17 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'To Do List',
+    title: 'To Do List (en cours)',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Autre idées',
+    title: 'Autre idées (bientôt)',
     github: 'https://github.com',
     demo: 'https://github.com',
   },
-  // {
-  //   id: 4,
-  //   image: IMG3,
-  //   title: 'Blog Livre lu et à lire',
-  //   github: 'https://github.com',
-  //   demo: 'https://github.com',
-  // },
-  // {
-  //   id: 5,
-  //   image: IMG3,
-  //   title: 'Recette cuisine',
-  //   github: 'https://github.com',
-  //   demo: 'https://github.com',
-  // },
-  // {
-  //   id: 6,
-  //   image: IMG3,
-  //   title: 'Anniversaire',
-  //   github: 'https://github.com',
-  //   demo: 'https://github.com',
-  // },
 ];
 function Portfolio() {
   return (

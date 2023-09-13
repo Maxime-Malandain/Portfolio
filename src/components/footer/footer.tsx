@@ -13,22 +13,22 @@ function Footer() {
       <ul className="permalinks">
         <li>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a href="#">Home</a>
+          <a href="#">Accueil</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">A propos</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#hardskills">Hard Skills</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">Autre informations</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Expériences</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -51,7 +51,7 @@ function Footer() {
         </a>
       </div>
       <div className="footer__copyright">
-        <small> © 2023 Maxime Malandain. All Rigths Reserved</small>
+        <small> © 2023 Maxime Malandain. Tout droits réservés</small>
       </div>
     </footer>
   );

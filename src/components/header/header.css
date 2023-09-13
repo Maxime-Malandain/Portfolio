@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 3rem;
   overflow: hidden;
 }
 
@@ -111,17 +111,30 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
+  .header__socials::before {
+    content: '';
+    width: 2rem;
+    height: 1px;
+    background: var(--color-primary);
+  }
+  .header__socials {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 35%;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .header__socials::after {
+    content: '';
+    width: 2rem;
+    height: 1px;
+    background: var(--color-primary);
   }
 
-  .header__socials,
   .scroll__down {
     display: none;
   }

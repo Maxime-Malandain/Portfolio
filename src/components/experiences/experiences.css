@@ -1,12 +1,12 @@
-.container.testimonials__container {
-  width: 80%;
-}
+/* .container.testimonials__container {
+  width: var(--container-width-lg);
+} */
 /* ! le responsive part de temps en temps? */
 
 .testimonial {
   background: var(--color-bg-variant);
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 2rem;
   user-select: none;
 }
@@ -28,8 +28,8 @@
   color: var(--color-light);
   font-weight: 300;
   display: block;
-  width: 80%;
   margin: 0.8rem auto 0;
+  width: var(--container-width-lg);
 }
 
 @media screen and (max-width: 1024px) {
@@ -39,11 +39,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .container.testimonials__container {
-    width: var(--container-width-sm);
-  }
-
-  .client__review {
-    width: var(--container-width-sm);
-  }
+}
+.client__review {
+  width: var(--container-width-md);
 }
