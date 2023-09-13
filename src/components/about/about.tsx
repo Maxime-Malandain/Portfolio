@@ -18,7 +18,7 @@ function About() {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Experience</h5>
@@ -34,13 +34,29 @@ function About() {
               <h5>Projects</h5>
               <small>80+ Completed</small>
             </article>
-          </div>
+          </div> */}
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rem
-            facere explicabo nam architecto voluptates sit suscipit nemo
-            provident aspernatur, natus accusantium hic voluptate eum commodi
-            consequuntur ut inventore officia.
+            En tant que développeur Frontend, je suis réactif, résolu et à
+            l&apos;écoute. J&apos;ai la capacité de relever les défis et de
+            mener chaque projet à bien pour atteindre les objectifs fixés.
+          </p>
+          <p>
+            Ma grande faculté d&apos;adaptation me permet de m&apos;intégrer
+            rapidement et de collaborer harmonieusement avec les membres de
+            l&apos;équipe, favorisant ainsi une collaboration productive. Je
+            suis également en veille perpétuelle, me permettant de rester
+            constamment à jour sur les dernières tendances et les évolutions
+            technologiques.{' '}
+          </p>
+          <p>
+            Je suis disponible, hautement motivé et prêt à m&apos;adapter pour
+            apprendre de nouveaux langages afin de répondre aux besoins présents
+            et futurs de mon employeur.
+          </p>
+          <p>
+            Je suis impatient de relever de nouveaux défis passionnants dans ce
+            domaine en constante évolution.
           </p>
 
           <a href="#contact" className="btn btn-primary">
