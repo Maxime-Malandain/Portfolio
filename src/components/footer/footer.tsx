@@ -16,13 +16,13 @@ function Footer() {
           <a href="#">Accueil</a>
         </li>
         <li>
-          <a href="#about">A propos</a>
+          <a href="#about">À propos</a>
         </li>
         <li>
           <a href="#hardskills">Hard Skills</a>
         </li>
         <li>
-          <a href="#services">Autre informations</a>
+          <a href="#services">Autres informations</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
@@ -51,7 +51,7 @@ function Footer() {
         </a>
       </div>
       <div className="footer__copyright">
-        <small> © 2023 Maxime Malandain. Tout droits réservés</small>
+        <small> © 2023 Maxime Malandain. Tous droits réservés</small>
       </div>
     </footer>
   );

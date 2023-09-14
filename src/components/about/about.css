@@ -18,7 +18,7 @@
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(
-    10deg
+    -10deg
   ); /* TODOVoir pour mettre un background pour faire plus jolie */
   transition: var(--transition);
 }
@@ -26,6 +26,7 @@
 .about__me-image:hover {
   transform: rotate(0);
 }
+/* //TODO Pour plus tard */
 /* .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -38,7 +38,7 @@
 .hardskills__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
-  /* font-size: 1.1rem; /*TODO Voir pour que cela se voit mieux */
+  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 1024px) {

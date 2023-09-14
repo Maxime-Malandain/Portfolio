@@ -16,28 +16,28 @@ function HardSkills() {
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Intermédiare</small>
+                <small className="text-light">Intermédiaire</small>
               </div>
             </article>
             <article className="hardskills__details">
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermédiare</small>
+                <small className="text-light">Intermédiaire</small>
               </div>
             </article>
             <article className="hardskills__details">
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Intermédiare</small>
+                <small className="text-light">Intermédiaire</small>
               </div>
             </article>
             <article className="hardskills__details">
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>React / Redux</h4>
-                <small className="text-light">Intermédiare</small>
+                <small className="text-light">Intermédiaire</small>
               </div>
             </article>
             <article className="hardskills__details">
@@ -63,7 +63,7 @@ function HardSkills() {
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>NodeJS / Express</h4>
-                <small className="text-light">Intermédiare</small>
+                <small className="text-light">Intermédiaire</small>
               </div>
             </article>
             <article className="hardskills__details">

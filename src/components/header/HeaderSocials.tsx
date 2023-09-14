@@ -6,7 +6,7 @@ function HeaderSocials() {
   return (
     <div className="header__socials">
       <a
-        href="https://www.linkedin.com/in/maxime-mld-1a4ab428b/"
+        href="https://www.linkedin.com/in/maxime-mld/"
         target="_blank"
         rel="noreferrer"
       >

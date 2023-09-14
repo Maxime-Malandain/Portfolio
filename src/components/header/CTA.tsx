@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/CV-Html_to_screen.png';
+import CV from '../../assets/CV_in_code.png';
 
 function CTA() {
   return (
