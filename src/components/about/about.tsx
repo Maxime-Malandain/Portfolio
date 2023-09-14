@@ -1,8 +1,6 @@
 import React from 'react';
 import './about.css';
 // TODO pour plus tard
-// import { FiAward, FiUsers } from 'react-icons/fi';
-// import { PiFolderNotchOpenDuotone } from 'react-icons/pi';
 import ME from '../../assets/my_face_withoutBG.png';
 
 function About() {
@@ -19,23 +17,6 @@ function About() {
         </div>
 
         <div className="about__content">
-          {/* <div className="about__cards"> // TODO pour plus tard
-            <article className="about__card">
-              <FiAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Experience</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className="about__card">
-              <PiFolderNotchOpenDuotone className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
-            </article>
-          </div> */}
           <p>
             En tant que développeur Frontend, je suis réactif, résolu et à
             l&apos;écoute. J&apos;ai la capacité de relever les défis et de
