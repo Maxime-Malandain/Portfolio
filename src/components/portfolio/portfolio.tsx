@@ -18,7 +18,7 @@ function Portfolio() {
           <h3>Tok-Tok</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Maxime-Malandain/Tok-Tok_Front"
+              href="https://github.com/Maxime-Malandain/Tok-Tok-Front"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -26,7 +26,7 @@ function Portfolio() {
               Code Front
             </a>
             <a
-              href="https://github.com/Maxime-Malandain/Tok-Tok_Back"
+              href="https://github.com/Maxime-Malandain/Tok-Tok-Back"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
