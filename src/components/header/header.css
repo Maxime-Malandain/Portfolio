@@ -50,7 +50,6 @@ header {
   left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
   padding: 3rem 1.5rem 1.5rem 1.5rem;
 }
 
@@ -137,5 +136,21 @@ header {
 
   .scroll__down {
     display: none;
+  }
+}
+@media screen and (max-height: 740px) {
+  .me,
+  .scroll__down,
+  .header__socials,
+  .myAnim {
+    display: none;
+  }
+  .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    margin: 2rem auto 2.5rem;
   }
 }

@@ -5,8 +5,8 @@ import { BsPatchCheckFill } from 'react-icons/bs';
 function HardSkills() {
   return (
     <section id="hardskills">
-      <h5>Quels sont mes compéténces?</h5>
-      <h2>Hard Skils</h2>
+      <h5>Quelles sont mes compétences?</h5>
+      <h2>Hard Skills</h2>
 
       <div className="container hardskills__container">
         <div className="hardskills__frontend">

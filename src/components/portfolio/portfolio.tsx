@@ -45,7 +45,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="Dessin d'une ampoule" />
           </div>
-          <h3>Autre idées (bientôt)</h3>
+          <h3>Autres idées (bientôt)</h3>
         </article>
       </div>
     </section>

@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 import { TiArrowDownOutline } from 'react-icons/ti';
 import CTA from './CTA';
-import ME from '../../assets/my_face_withoutBG.png';
+import ME from '../../assets/me_bg.png';
 import HeaderSocials from './HeaderSocials';
 
 const header = () => {

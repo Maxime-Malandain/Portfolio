@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 // TODO pour plus tard
-import ME from '../../assets/my_face_withoutBG.png';
+import ME from '../../assets/me_bg.png';
 
 function About() {
   return (
