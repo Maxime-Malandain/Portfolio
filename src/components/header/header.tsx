@@ -2,8 +2,7 @@ import React from 'react';
 import './header.css';
 import { TiArrowDownOutline } from 'react-icons/ti';
 import CTA from './CTA';
-import ME from '../../assets/me-background.png';
-//! Mettre une photo plus tard
+import ME from '../../assets/my_face_withoutBG.png';
 import HeaderSocials from './HeaderSocials';
 
 const header = () => {
@@ -12,7 +11,7 @@ const header = () => {
       <div className="container header__container">
         <h5>Bienvenue sur mon site!!</h5>
         <h1>Maxime Malandain</h1>
-        <h5 className="text-light">Developpeur Frontend Junior</h5>
+        <h5 className="text-light">Développeur Frontend Junior</h5>
         <CTA />
         <HeaderSocials />
 

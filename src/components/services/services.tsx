@@ -6,7 +6,7 @@ function Services() {
   return (
     <section id="services">
       <h5>Et plus encore</h5>
-      <h2>Autre informations</h2>
+      <h2>Autres informations</h2>
 
       <div className="container services__container">
         <article className="service">
@@ -37,11 +37,11 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Git , Visulat Studio Code , Linux</p>
+              <p>Git , Visual Studio Code , Linux</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Méthode Agile , Scrum , Rédaction cachier des charges</p>
+              <p>Méthode Agile , Scrum , Rédaction cahier des charges</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -55,6 +55,11 @@ function Services() {
           </div>
 
           <ul className="service__list">
+            {' '}
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Développeur Web & Mobile, Bac+2 (examen 10/2023)</p>
+            </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>Anglais niveau technique</p>
@@ -65,7 +70,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>BIA (Brevet d&apos;initiation Aéronautique)</p>
+              <p>Brevet Initiation Aéronautique</p>
             </li>
           </ul>
         </article>

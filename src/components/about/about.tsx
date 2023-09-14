@@ -1,14 +1,15 @@
 import React from 'react';
 import './about.css';
+// TODO pour plus tard
 // import { FiAward, FiUsers } from 'react-icons/fi';
 // import { PiFolderNotchOpenDuotone } from 'react-icons/pi';
-import ME from '../../assets/me-background.png';
+import ME from '../../assets/my_face_withoutBG.png';
 
 function About() {
   return (
     <section id="about">
       <h5>Que savoir</h5>
-      <h2>A propos de moi</h2>
+      <h2>À propos de moi</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -18,7 +19,7 @@ function About() {
         </div>
 
         <div className="about__content">
-          {/* <div className="about__cards">
+          {/* <div className="about__cards"> // TODO pour plus tard
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Experience</h5>
@@ -35,7 +36,6 @@ function About() {
               <small>80+ Completed</small>
             </article>
           </div> */}
-
           <p>
             En tant que développeur Frontend, je suis réactif, résolu et à
             l&apos;écoute. J&apos;ai la capacité de relever les défis et de
@@ -58,7 +58,6 @@ function About() {
             Je suis impatient de relever de nouveaux défis passionnants dans ce
             domaine en constante évolution.
           </p>
-
           <a href="#contact" className="btn btn-primary">
             Parlons en!
           </a>
