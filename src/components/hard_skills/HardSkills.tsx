@@ -44,14 +44,14 @@ function HardSkills() {
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>SCSS (SASS)</h4>
-                <small className="text-light">Débutant</small>
+                <small className="text-light">Bonnes notions</small>
               </div>
             </article>
             <article className="hardskills__details">
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>TypeScript</h4>
-                <small className="text-light">Débutant</small>
+                <small className="text-light">Bonnes notions</small>
               </div>
             </article>
           </div>
@@ -70,14 +70,14 @@ function HardSkills() {
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>PostgreSQL</h4>
-                <small className="text-light">Débutant</small>
+                <small className="text-light">Bonnes notions</small>
               </div>
             </article>
             <article className="hardskills__details">
               <BsPatchCheckFill className="hardskills__details-icon" />
               <div>
                 <h4>Sequelize</h4>
-                <small className="text-light">Débutant</small>
+                <small className="text-light">Bonnes notions</small>
               </div>
             </article>
           </div>

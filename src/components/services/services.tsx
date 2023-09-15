@@ -31,7 +31,7 @@ function Services() {
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Gestion de Projet et Outils</h3>
+            <h3>Gestion de Projets et Outils</h3>
           </div>
 
           <ul className="service__list">
@@ -51,7 +51,7 @@ function Services() {
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Langue et autres diplomes</h3>
+            <h3>Langue et autres diplômes</h3>
           </div>
 
           <ul className="service__list">
