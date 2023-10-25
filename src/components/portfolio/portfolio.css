@@ -1,13 +1,13 @@
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
 }
 
 .portfolio__item {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-around;
   background: var(--color-bg-variant);
   padding: 1.3rem;
   border-radius: 2rem;
@@ -39,9 +39,9 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .portfolio__container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1.2rem;
   }
 }
