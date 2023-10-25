@@ -3,6 +3,7 @@ import './portfolio.css';
 import IMG1 from '../../assets/tok-tok.png';
 import IMG2 from '../../assets/WOP.png';
 import IMG3 from '../../assets/ID.png';
+import DP from '../../assets/Dossier de Projet.pdf';
 
 function Portfolio() {
   return (
@@ -15,7 +16,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Tok-Tok" />
           </div>
-          <h3>Tok-Tok</h3>
+          <h3>Tok-Tok (projet de fin d'étude)</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Maxime-Malandain/Tok-Tok-Front"
@@ -26,8 +27,17 @@ function Portfolio() {
               Code Front
             </a>
             <a
-              href="https://github.com/Maxime-Malandain/Tok-Tok-Back"
+              href={DP}
               className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Dossier de Projet
+            </a>
+
+            <a
+              href="https://github.com/Maxime-Malandain/Tok-Tok-Back"
+              className="btn"
               target="_blank"
               rel="noreferrer"
             >
@@ -41,12 +51,12 @@ function Portfolio() {
           </div>
           <h3>To Do List (en cours)</h3>
         </article>
-        <article key={3} className="portfolio__item">
+        {/* <article key={3} className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="Dessin d'une ampoule" />
           </div>
           <h3>Autres idées (bientôt)</h3>
-        </article>
+        </article> */}
       </div>
     </section>
   );
