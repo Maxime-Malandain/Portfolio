@@ -12,7 +12,7 @@ const data = [
   {
     id: '1',
     avatar: AVTR1,
-    name: "O'Clock (Fevrier-Août 2023)",
+    name: "O'Clock (Février-Août 2023)",
     review:
       "Formation Intensive en développement web spécialisé en Javascript, d'une durée de 798 heures. J'ai eu l'opportunité de travailler sur une variété de projets concrets, y compris la création d'un réseau social en groupe, renforçant ainsi mes compétences en travail d'équipe et en résolution de problèmes.",
   },
@@ -21,7 +21,7 @@ const data = [
     avatar: AVTR2,
     name: 'Police Nationale (2018-Actuellement)',
     review:
-      "En tant que Fonctionnaire de Police,j'ai eu l'opportunité de travailler dans de nombreuses branches et de vivre de nombreuses expériences. De la Police secours vers du judiciaire en passant par CRS, mes fonctions m'ont dotés de compétences essentielles telles que la gestion du stress, la résolution de problèmes, la communication efficace et l'éthique professionnelle.",
+      "En tant que Fonctionnaire de Police,   j'ai eu l'opportunité de travailler dans de nombreuses branches et de vivre de nombreuses expériences. De la Police secours vers du judiciaire en passant par CRS, mes fonctions m'ont doté de compétences essentielles telles que la gestion du stress, la résolution de problèmes, la communication efficace et l'éthique professionnelle.",
   },
   {
     id: '3',
